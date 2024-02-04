@@ -1,10 +1,12 @@
-import Counter from "./Counter";
+// import AllProducts from "./components/AllProducts";
+import SpecificProduct from "./components/SpecificProduct";
 
 const App = () => {
+
   return (
     <>
-      <div>App</div>
-      <Counter />
+      {/* <AllProducts /> */}
+      <SpecificProduct />
     </>
   );
 };
