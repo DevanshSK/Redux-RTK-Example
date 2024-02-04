@@ -1,9 +1,12 @@
-
+import Counter from "./Counter";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <div>App</div>
+      <Counter />
+    </>
+  );
+};
 
-export default App
+export default App;
